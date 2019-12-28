@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    font-family: 'Long Cang', cursive !important;
+}
+.wrapper{
+    width: 860px;
+    margin: 0 auto;
+    background-color: cadetblue;
+    padding: 50px;
+}
+
+.wrapper p{
+    font-size: 35px;
+}
+input{
+    display: block;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.img-wrapper{
+    text-align: center;
+}
+.img-wrapper img{
+    margin-bottom: 15px;
+}
+
+/* Work on Mobile */
+@media(prefers-color-scheme: dark){
+    body{
+        background-color: #FFF !important;
+    }
+    .wrapper{
+        background-color: darkblue;
+    }
+    img{
+        filter: grayscale(20%);
+    }
+}

@@ -1,17 +1,78 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0px;
     font-family: 'Long Cang', cursive !important;
+    position: relative;
 }
-.wrapper{
-    width: 860px;
+
+html, body{
+    height: 100%;
+}
+
+.top-bar{
     margin: 0 auto;
-    background-color: cadetblue;
-    padding: 50px;
+    text-align: center;
+    height: 75px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: #c47ff9;
+}
+.top-bar h1{
+    margin: 0px;
+    padding: 20px 0;
+}
+
+.left-menu{
+    position: absolute;
+    left: 0px;
+    top: 75px;
+    width: 200px;
+    height: 100%;
+    background: #c47ff9;
+}
+.left-menu button{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.wrapper{
+    position: absolute;
+    left: 200px;
+    right: 0px;
+    top: 75px;
+    padding: 25px;
+}
+
+.text-center{
+    text-align: center;
 }
 
 .wrapper p{
     font-size: 35px;
 }
+
+/* Style tab links */
+.tablink {
+    background-color: #c47ff9;
+    color: #000;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 23px;
+    font-family: 'Long Cang', cursive !important;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
 input{
     display: block;
     margin: 0 auto;
@@ -27,6 +88,18 @@ img{
 .img-wrapper img{
     margin-bottom: 15px;
 }
+
+#section1 {
+    background-color: pink;
+  }
+  
+  #section2 {
+    background-color: yellow;
+  }
+
+  .main{
+    height: 400px;
+  }
 
 /* Work on Mobile */
 @media(prefers-color-scheme: dark){

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Instagram Notes</title>
-		<meta name="Description" content=""/>
-		<meta name="Keywords" content=""/>
-		<meta charset="utf-8"/>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="author" content="FADILXCODER" />
-		<meta name="copyright" content="" />
-		<meta name="robots" content="index,follow"/>
+    <head>
+        <title>Programming Notes</title>
+        <meta name="Description" content=""/>
+        <meta name="Keywords" content=""/>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="FADILXCODER" />
+        <meta name="copyright" content="" />
+        <meta name="robots" content="index,follow"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
         <link href="https://fonts.googleapis.com/css?family=Long+Cang&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
@@ -24,68 +24,50 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
 
 
-	</head>
-	<body>
+    </head>
+    <body>
         <div class="top-bar">
-            <h1>#Notes - Instagram</h1>
+            <h1>Programming Notes</h1>
         </div>
         <div class="left-menu">
-            <button class="tablink" onclick="openPage('before-developing-a-website', this)" id="open">Before developing a website</button>
-            <button class="tablink" onclick="openPage('dos-unix-commands', this)">DOS / UNIX Commands</button>
-            <button class="tablink" onclick="openPage('basic-linux-command', this)">Basic Linux Commands</button>
-			<button class="tablink" onclick="openPage('html-tags', this)">HTML Tags</button>
-			<button class="tablink" onclick="openPage('smooth-scroll', this)">Smooth Scroll CSS</button>
-			<button class="tablink" onclick="openPage('', this)">#</button>
-			<button class="tablink" onclick="openPage('', this)">#</button>
-			<button class="tablink" onclick="openPage('', this)">#</button>
-			<button class="tablink" onclick="openPage('', this)">#</button>
-			<button class="tablink" onclick="openPage('', this)">#</button>
-			<button class="tablink" onclick="openPage('', this)">#</button>
-			<button class="tablink" onclick="openPage('', this)">#</button>
-			<button class="tablink" onclick="openPage('', this)">#</button>
+            <button class="tablink" onclick="openPage('php-8-match', this)" id="open">PHP 8 match</button>
+            <button class="tablink" onclick="openPage('php-8-class-instantiation', this)">PHP 8 class params</button>
+            <button class="tablink" onclick="openPage('sql-cheatsheet', this)">SQL</button>
+            <button class="tablink" onclick="openPage('php-reflection-class', this)">PHP Reflection class</button>
+            <button class="tablink" onclick="openPage('', this)">#</button>
         </div>
         <div class="wrapper">
-            <div id="before-developing-a-website" class="tabcontent text-center">
-            	<img src="images/01.jpg" />
+            <div id="php-8-match" class="tabcontent text-center">
+                <h2>PHP 8 match vs switch-case</h2>
+                <img src="images/01-1.jpg" />
+                <br>
+                <img src="images/01-2.jpg" />
             </div>
-            <div id="dos-unix-commands" class="tabcontent text-center">
-            	<img src="images/02.jpg" />
+
+            <div id="php-8-class-instantiation" class="tabcontent text-center">
+                <h2>PHP 8 instantiate class with named parameters</h2>
+                <img src="images/02.jpg" />
             </div>
-            <div id="basic-linux-command" class="tabcontent text-center">
-				<img src="images/03.jpg" />
-				<br>
-				<img src="images/04.jpg" />
+
+            <div id="sql-cheatsheet" class="tabcontent text-center">
+                <h2>SQL queries</h2>
+                <img src="images/03.jpg" />
+                <br>
+                <img src="images/04.jpg" />
+                <br>
+                <img src="images/05.jpg" />
+                <br>
+                <img src="images/06.jpg" />
+                <br>
+                <img src="images/07.jpg" />
             </div>
-            <div id="html-tags" class="tabcontent">
-				<p><dfn><abbr title="HyperText Markup Language">HTML</abbr></dfn> is the standard markup language for creating web pages.</p>
-					<br>
-				<input type="color"/>
-					<br>
-				<label for="disk_c">Disk usage C:</label>
-				<meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
-				<label for="disk_d">Disk usage D:</label>
-				<meter id="disk_d" value="0.6">60%</meter>
-					<br>
-				<label for="file">Downloading progress:</label>
-				<progress id="file" value="32" max="100"> 32% </progress>					
-					<hr>
-					<br>
-				<img src="https://picsum.photos/1000/500" />
-					<br>					
-			</div>
-			<div id="smooth-scroll" class="tabcontent">
-				<div class="main" id="section1">
-					<h2>Section 1</h2>
-					<p>Click on the link to see the "smooth" scrolling effect.</p>
-					<a href="#section2">Click Me to Smooth Scroll to Section 2 Below</a>
-					<p>Note: Remove the scroll-behavior property to remove smooth scrolling.</p>
-				  </div>
-				  
-				  <div class="main" id="section2">
-					<h2>Section 2</h2>
-					<a href="#section1">Click Me to Smooth Scroll to Section 1 Above</a>
-				  </div>
+
+            <div id="php-reflection-class" class="tabcontent text-center">
+                <h2>PHP Reflection class</h2>
+                <img src="images/08.jpg" />
+            </div>
+
         </div>
         <script type="text/javascript" src="script.js"></script>
-	</body>
+    </body>
 </html>

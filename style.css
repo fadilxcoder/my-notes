@@ -13,14 +13,9 @@ html, body{
 }
 
 .top-bar{
-    margin: 0 auto;
-    text-align: center;
-    height: 75px;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    background: #c47ff9;
+    display: none;
 }
+
 .top-bar h1{
     margin: 0px;
     padding: 20px 0;
@@ -29,10 +24,10 @@ html, body{
 .left-menu{
     position: absolute;
     left: 0px;
-    top: 75px;
+    top: px;
     width: 200px;
     height: 100%;
-    background: #c47ff9;
+    background: #FFF;
 }
 .left-menu button{
     display: block;
@@ -44,8 +39,8 @@ html, body{
     position: absolute;
     left: 200px;
     right: 0px;
-    top: 75px;
-    padding: 25px;
+    top: 0px;
+    padding: 0px 25px;
 }
 
 .text-center{
@@ -58,7 +53,7 @@ html, body{
 
 /* Style tab links */
 .tablink {
-    background-color: #c47ff9;
+    background-color: #FFF;
     color: #000;
     float: left;
     border: none;
@@ -71,6 +66,7 @@ html, body{
 
 .tablink:hover {
     background-color: #777;
+    color: #FFF;
 }
 
 input{
